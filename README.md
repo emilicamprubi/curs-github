@@ -1,2 +1,2 @@
 # primer-repositori
-Primer repositori Github
+Primer repositori curs Github
