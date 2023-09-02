@@ -18,3 +18,5 @@ settings - developer - tokens - classic
 hem de guardar el token en un lloc segur
 ara hi tornem i quan ens demani el token l'hi afegim
 git push origin master
+a veure si a github es veu tota aquesta modificació
+MODIFICACIÓ !!!
