@@ -1,4 +1,3 @@
-Primer repositori curs Github
 CLONAR el repositori de github a local, copiant l'adreça HTTPS
 Estem en una carpeta local i fem:
 git clone https://github.com/emilicamprubi/primer-repositori.git
