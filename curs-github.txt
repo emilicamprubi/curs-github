@@ -39,3 +39,4 @@ git branch -a (ens mostra les branques tant locals com remotes).
 
 FORK (BIFURCAR UN REPOSITORI)
 Podem fer una còpia d'un repositori que no és nostre al nostre compte.
+Podem experimentar lliurement i no afecta al repositori original.

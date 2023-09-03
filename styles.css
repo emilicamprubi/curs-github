@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.primer-div {
+  width: 600px;
+  height: 400px;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: darksalmon;
+  align-items: center;
+  justify-content: center;
+}
+
+.segon-div {
+  width: 600px; height: 300px;
+  margin: 20px; padding: 20px;
+  display: flex;
+  background-color: navajowhite;
+  align-items: center;
+  justify-content: center;
+  border-style: 4px solid rgb(104, 21, 21);
+  border-radius: 20px;
+}
+
+h1 {
+  font-family: Roboto, sans-serif;
+  font-size: 40px;
+}
