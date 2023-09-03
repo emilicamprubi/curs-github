@@ -1,8 +1,12 @@
 CLONAR el repositori de github a local, copiant l'adreça HTTPS
 Estem en una carpeta local i fem:
 git clone https://github.com/emilicamprubi/primer-repositori.git
-
 git remote (per consultar el origin des de local)
+
+.GITIGNORE
+podem crear un arxiu .gitignore a local
+a dins hi posem arxius o carpetes que no volem que es transfereixin
+
 EMAIL
 Ocultació de l'email original - sustituim pel que ens dóna github
 git config --global user.email (consultem l'actual)
@@ -20,7 +24,7 @@ hem de guardar el token en un lloc segur
 ara hi tornem i quan ens demani el token l'hi afegim
 git push origin master (AIXÍ ENVIEM A GITHUB)
 
-PULL (des de local ens descarreguem el repositori de github i ens fa un merge).
+PULL (Ens descarreguem el repositori de github i ens fa un merge).
 git fetch (des de local verifica però no combina)
 git fetch origin
 Si ja estem segurs que volem fer el pull ja ho podem fer
