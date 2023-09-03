@@ -1,14 +1,31 @@
-PULLS
-git pull (des de local ens descarreguem el repositori de github i ens fa un merge).
-git pull origin main (AIXÍ ES FA EL PULL)
+Primer repositori curs Github
+CLONAR el repositori de github a local, copiant l'adreça HTTPS
+Estem en una carpeta local i fem:
+git clone https://github.com/emilicamprubi/primer-repositori.git
+
+git remote (per consultar el origin des de local)
+EMAIL
+Ocultació de l'email original - sustituim pel que ens dóna github
+git config --global user.email (consultem l'actual)
+git config --global user.email el-correu-sustitutiu (el nou correu)
+
+PUSH (ENVIAR a github amb git push)
+Un cop hem fet canvis a local i hem fet els commits pertinents enviem a github
+git push origin master (o main, depèn com hem anomenat la branca ppal.).
+en ppi ens pot donar un error de que no tenim permisos
+hem de configurar les claus en github en HTTPS
+en el moment de fer commit ens demanarà autenticació
+podem utilitzar un token que generem des de github
+settings - developer - tokens - classic
+hem de guardar el token en un lloc segur
+ara hi tornem i quan ens demani el token l'hi afegim
+git push origin master (AIXÍ ENVIEM A GITHUB)
+
+PULL (des de local ens descarreguem el repositori de github i ens fa un merge).
 git fetch (des de local verifica però no combina)
 git fetch origin
-
-podem canviar al repositori origin amb:
-git checkout origin/main (ens permet veure els canvis que hi ha).
-git checkout main (tornem al repositori main local).
-Si ja estem segurs que volem fer el pull ho podem fer
-git pull origin main
+Si ja estem segurs que volem fer el pull ja ho podem fer
+git pull origin main (AIXÍ ES FA EL PULL)
 
 CREAR UN PROJECTE EN LOCAL i passar-lo tot al github
 Hem de crear un projecte a github, i copiar l'adreça
