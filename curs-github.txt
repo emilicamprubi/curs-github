@@ -40,3 +40,22 @@ git branch -a (ens mostra les branques tant locals com remotes).
 FORK (BIFURCAR UN REPOSITORI)
 Podem fer una còpia d'un repositori que no és nostre al nostre compte.
 Podem experimentar lliurement i no afecta al repositori original.
+Ho podem fer prement el símbol Fork a dalt a la dreta.
+
+PULL REQUEST
+Podem sol·licitar que s'incorpori la nostra modificació al projecte original.
+Es pot fer prement el símbol Contribute
+Això obre un pull request i dependrà del propietari si accepta o no.
+
+ISSUES
+Reportar algún problema, bug, etc. i discutir-ho.
+
+CREAR branques en github
+Podem crear branques en Github i després passar-les a local.
+git branch (per veure quines branques tenim)
+git pull origin nom-de-la-branca
+
+ELIMINAR branques
+git branch -d nom-de-la-branca (primer eliminem la branca local).
+git branch -a (podem veure també les remotes)
+git push origin -d nom-de-la-branca
