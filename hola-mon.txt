@@ -1,1 +1,21 @@
-Hola món......
+PULLS
+git pull (des de local ens descarreguem el repositori de github i ens fa un merge).
+git pull origin main (AIXÍ ES FA EL PULL)
+git fetch (des de local verifica però no combina)
+git fetch origin
+
+podem canviar al repositori origin amb:
+git checkout origin/main (ens permet veure els canvis que hi ha).
+git checkout main (tornem al repositori main local).
+Si ja estem segurs que volem fer el pull ho podem fer
+git pull origin main
+
+CREAR UN PROJECTE EN LOCAL i passar-lo tot al github
+Hem de crear un projecte a github, i copiar l'adreça
+Ara podem des de local enviar tot
+git remote add origin https://adreça-del-projecte-a-github (AIXÍ ES FA)
+git push -u origin main (AIXÍ TAMBÉ)
+git branch -a (ens mostra les branques tant locals com remotes).
+
+FORK (BIFURCAR UN REPOSITORI)
+Podem fer una còpia d'un repositori que no és nostre al nostre compte.
